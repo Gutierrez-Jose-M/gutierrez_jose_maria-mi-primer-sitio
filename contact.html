@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Gutierrez - Mi primera pagina</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Formas de contactarme</h1>
+        <nav>
+            <a href="index.html">Volver al Inicio</a>
+        </nav>
+    </header>
+    
+     <hr>
+
+    <main>
+        <section id="contacto" class="section-container">
+            <div >
+                <h1 class="title">Contactame</h1>
+                <p>¡Contáctame para más información!</p>
+                <form action="" class="form-container">
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre" minlength="3">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="ingresa tu correo">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3874123456" pattern="[0-9]{10}" 
+                    title="Debe contener 10 dígitos (característica sin 0 y número sin 15)"
+                    required>
+                    <label for="genero">Genero:</label>
+                    <select id="genero" name="genero" required>
+                        <option value="">Selecciona tu género</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required placeholder="Ingresa tu mensaje" minlength="10"></textarea>
+                    <label for="terminos">Aceptor de términos y condiciones</label>
+                    <input class="input-checkbox" type="checkbox" id="terminos" name="terminos" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+        <section id="redes">
+            <ul>
+                <li><a href="https://www.instagram.com/josemgutierrez99" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100080589291864" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2026 Jose Gutierrez, Salta, Argentina.</p>
+    </footer>
+</body>
+</html>
