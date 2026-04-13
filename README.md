@@ -16,6 +16,6 @@ Este es mi primer proyecto integral desarrollado para la materia Prácticas Prof
 ## Capturas de Pantalla
 Aquí se puede observar cómo el diseño se adapta a diferentes dispositivos:
 
-| Mobile (iPhone 12) | Tablet (iPad Air) | Desktop (Nest Hub Max) |
-| :---: | :---: | :---: |
-| ![Mobile](./capturas/393px.png) | ![Tablet](./capturas/820px.png) | ![Laptop](./capturas/1024px.png) |
+[Mobile](./capturas/393px.png) 
+[Tablet](./capturas/820px.png)  
+[Laptop](./capturas/1024px.png) 
